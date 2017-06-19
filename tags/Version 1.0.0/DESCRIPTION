@@ -1,0 +1,21 @@
+Package: sfadv
+Version: 1.0.0
+Date: 2017-06-19
+Title: Advanced Methods for Stochastic Frontier Analysis
+Authors@R: c(person("Yann", "Desjeux", , "yann.desjeux@inra.fr", c("aut", "cre")),
+  person("Laure", "Latruffe", role = "aut"), person("Alain", "Carpentier", role = "ctb"))
+Maintainer: Yann Desjeux <yann.desjeux@inra.fr>
+Description: 
+ This package allows stochastic frontier analysis with advanced methods.
+ In particular, it applies the approach proposed by Latruffe et al. (2017) to estimate a 
+ stochastic frontier with technical inefficiency effects when one input is endogenous.
+Depends: R (>= 2.10)
+Imports: gmm, minpack.lm
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2017-06-19 08:37:15 UTC; ydesjeux
+Author: Yann Desjeux [aut, cre],
+  Laure Latruffe [aut],
+  Alain Carpentier [ctb]
